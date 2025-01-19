@@ -1,9 +1,12 @@
 import React from 'react'
 import './signupPage.css'
+import { SignUp } from '@clerk/clerk-react'
 
 const SignupPage = () => {
   return (
-    <div>SignupPage</div>
+    <div className='signUpPage'>
+      <SignUp path='/sign-up' signInUrl='/sign-in'/>
+    </div>
   )
 }
 
