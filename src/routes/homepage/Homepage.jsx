@@ -47,7 +47,7 @@ const Homepage = () => {
                 () => {
                   setTypingStatus("human1");
                 },
-                "Human2: We produce food for Guinea Pigs",
+                "Human2: We produce food for Peigons",
                 2000,
                 () => {
                   setTypingStatus("bot");
